@@ -1,0 +1,31 @@
+﻿生成启动时间为 2018/3/21 10:31:39。
+     1>项目“C:\Users\orion\Desktop\指静脉识别 R4.0\指静脉识别 R4.0\指静脉识别 R4.0.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt register.c
+         register.c
+     1>c:\users\orion\desktop\指静脉识别 r4.0\指静脉识别 r4.0\register.c(15): warning C4013: “PreProcessing1”未定义；假设外部返回 int
+     1>c:\users\orion\desktop\指静脉识别 r4.0\指静脉识别 r4.0\register.c(15): warning C4047: “初始化”:“IplImage *”与“int”的间接级别不同
+     1>c:\users\orion\desktop\指静脉识别 r4.0\指静脉识别 r4.0\register.c(16): warning C4047: “初始化”:“IplImage *”与“int”的间接级别不同
+     1>c:\users\orion\desktop\指静脉识别 r4.0\指静脉识别 r4.0\register.c(17): warning C4047: “初始化”:“IplImage *”与“int”的间接级别不同
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\orion\Desktop\指静脉识别 R4.0\Debug\指静脉识别 R4.0.exe" /INCREMENTAL /NOLOGO opencv_world300d.lib opencv_ts300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\orion\Desktop\指静脉识别 R4.0\Debug\指静脉识别 R4.0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\orion\Desktop\指静脉识别 R4.0\Debug\指静脉识别 R4.0.lib" /MACHINE:X86 Debug\bwlabel.obj
+         Debug\CLAHE.obj
+         "Debug\Extract Feature Points.obj"
+         "Debug\Post Processing 1.obj"
+         Debug\Fusion.obj
+         Debug\Location.obj
+         Debug\main.obj
+         "Debug\Post Processing 2.obj"
+         "Debug\Post Processing SubFunctions.obj"
+         "Debug\Pre Processing 1.obj"
+         "Debug\Pre Processing 2.obj"
+         "Debug\Pre Processing 3.obj"
+         "Debug\Pre Processing SubFunctions.obj"
+         Debug\register.obj
+         "Debug\Tool Functions.obj"
+         指静脉识别 R4.0.vcxproj -> C:\Users\orion\Desktop\指静脉识别 R4.0\Debug\指静脉识别 R4.0.exe
+     1>已完成生成项目“C:\Users\orion\Desktop\指静脉识别 R4.0\指静脉识别 R4.0\指静脉识别 R4.0.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.60
